@@ -104,7 +104,7 @@ body {
   .item-header { grid-column: span 4; }
   .item-green  { grid-column: span 1; }
 
-  /* Başlık görünürlüğü kontrolü */
+  /* Header visibility control */
   .label-desktop { display: none; }
   .label-tablet  { display: block; }
   .label-phone   { display: none; }
