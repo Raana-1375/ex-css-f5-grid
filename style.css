@@ -33,3 +33,27 @@ body {
   padding: 30px;
   border-radius: 4px;
 }
+/* Header styling */
+.main-header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.main-header h2 {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  color: #000;
+}
+
+/* Shared properties for all boxes */
+.grid-item {
+  font-family: 'Bitcount Single', monospace, sans-serif;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 10px;
+  border-radius: 6px;
+  text-align: center;
+}
