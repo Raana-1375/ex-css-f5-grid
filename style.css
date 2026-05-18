@@ -57,3 +57,21 @@ body {
   border-radius: 6px;
   text-align: center;
 }
+/* Color Setup */
+.item-header      { background-color: #000000; color: #ffffff; padding: 15px; }
+.item-black       { background-color: #000000; color: #ffffff; }
+.item-teal        { background-color: #008080; color: #ffffff; }
+.item-blue        { background-color: #0000ff; color: #ffffff; }
+.item-navy        { background-color: #000080; color: #ffffff; }
+.item-lime        { background-color: #00ff00; color: #ffffff; }
+.item-white       { background-color: #ffffff; color: #000000; border: 1px solid #ddd; }
+.item-purple      { background-color: #800080; color: #ffffff; }
+.item-yellow      { background-color: #ffff00; color: #ffffff; }
+.item-olive       { background-color: #808000; color: #ffffff; }
+.item-red         { background-color: #ff0000; color: #ffffff; }
+.item-maroon      { background-color: #800000; color: #ffffff; }
+.item-gray        { background-color: #808080; color: #ffffff; }
+.item-olivedrab   { background-color: #6b8e23; color: #ffffff; }
+.item-deepskyblue { background-color: #00bfff; color: #ffffff; }
+.item-fuchsia     { background-color: #ff00ff; color: #ffffff; }
+.item-green       { background-color: #008000; color: #ffffff; }
