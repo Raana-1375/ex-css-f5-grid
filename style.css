@@ -75,3 +75,53 @@ body {
 .item-deepskyblue { background-color: #00bfff; color: #ffffff; }
 .item-fuchsia     { background-color: #ff00ff; color: #ffffff; }
 .item-green       { background-color: #008000; color: #ffffff; }
+/* ==========================================================================
+   2. Responsive Layouts (Desktop -> Tablet -> Phone)
+   ========================================================================== */
+
+/* --- 1. DESKTOP VIEW ( 900px) --- */
+.color-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.item-header { grid-column: span 6; }
+.item-green  { grid-column: span 3; }
+
+
+.label-desktop { display: block; }
+.label-tablet  { display: none; }
+.label-phone   { display: none; }
+
+
+/* --- 2. TABLET VIEW (900px) --- */
+@media (max-width: 899px) {
+  .color-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  
+  .item-header { grid-column: span 4; }
+  .item-green  { grid-column: span 1; }
+
+  /* Başlık görünürlüğü kontrolü */
+  .label-desktop { display: none; }
+  .label-tablet  { display: block; }
+  .label-phone   { display: none; }
+}
+
+
+/* --- 3. PHONE VIEW (600px) --- */
+@media (max-width: 599px) {
+  .color-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .item-header { grid-column: span 3; }
+  .item-green  { grid-column: span 3; }
+
+ 
+  .label-desktop { display: none; }
+  .label-tablet  { display: none; }
+  .label-phone   { display: block; }
+}
