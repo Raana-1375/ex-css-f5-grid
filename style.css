@@ -1,0 +1,35 @@
+1. Reset & Global Styles
+   ========================================================================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Screen Labels Styling */
+.screen-label {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #555;
+  align-self: flex-start;
+  margin-bottom: 10px;
+  width: 100%;
+  max-width: 900px;
+}
+
+.container {
+  background-color: #ededed;
+  width: 100%;
+  max-width: 900px;
+  padding: 30px;
+  border-radius: 4px;
+}
